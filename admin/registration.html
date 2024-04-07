@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Doctor</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/9a3259ebc4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navigation">
+		<ul>
+			<li>
+				<a href="../pages/index.html">Home</a>
+			</li>
+			<li>
+				<a href="login.html">Log in</a>
+			</li>
+			<li>
+				<a href="registration.html">Registration</a>
+			</li>
+		</ul>
+		<input class="search_box" type="text" placeholder="Search Here">
+	</nav>
+  <style>
+    
+    .reg_title {
+      text-align: center;
+      font-size: 26px;
+    }
+    
+    .registration_area {
+      padding: 200px 10px;
+    }
+    .registration{
+      max-width: 400px;
+      margin: 0 auto;
+      background: #FFF;
+      padding: 10px 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .registration input{
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    button[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="registration_area">
+    <div class="registration">
+      <h3 class="reg_title">Registration - Hello Doctor</h3>
+      <form class="registration_form">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div id="container">
+      <h3>Follow us on</h3>
+      <div id="social-media-footer">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>This Website is Created and owned by Al-amin and Sanjida Sultana Snigdha</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  </body>
+  </html>
+</body>
+</html>

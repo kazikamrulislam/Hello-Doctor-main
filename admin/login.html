@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Doctor</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/9a3259ebc4.js" crossorigin="anonymous"></script>
+  <style>
+    .login_area{
+      padding: 200px 10px;
+    }
+    .login_form {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    .login_title {
+      text-align: center;
+      font-size: 26px;
+    }
+    .login input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    .login_btn{
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+	<nav class="navigation">
+		<ul>
+			<li>
+				<a href="../pages/index.html">Home</a>
+			</li>
+			<li>
+				<a href="login.html">Log in</a>
+			</li>
+			<li>
+				<a href="registration.html">Registration</a>
+			</li>
+		</ul>
+		<input class="search_box" type="text" placeholder="Search Here">
+	</nav>
+	</div>
+  <div class="login_area">
+    <div class="login_form">
+      <h3 class="login_title">Login - Hello Doctor</h3>
+      <form class="login" action="login.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        
+        <!-- <input type="submit" value="Login"> -->
+        <button class="login_btn" type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div id="container">
+      <h3>Follow us on</h3>
+      <div id="social-media-footer">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>This Website is Created and owned by Al-amin and Sanjida Sultana Snigdha</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+  </body>
+  </html>
+</body>
+</html>
